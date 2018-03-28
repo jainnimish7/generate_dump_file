@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{Create dump file in temporary folder of root directory, if folder not present in dir then it will create one. 
                           Usage: open interactive prompt by typing 'irb' and require 'generate_dump_file'.
                           again, require File.expand_path('../config/environment', __FILE__) and then run GenerateDumpFile.create }
-  # spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/jainnimish7/generate_dump_file"
   spec.license       = "techracers"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|

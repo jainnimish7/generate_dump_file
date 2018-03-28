@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    generate_dump_file (0.1.1)
+    generate_dump_file (0.1.2)
 
 GEM
   remote: https://rubygems.org/
